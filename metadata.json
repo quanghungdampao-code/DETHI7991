@@ -1,0 +1,5 @@
+{
+  "name": "7991 Exam Generator",
+  "description": "A professional tool for teachers to generate 7991 structure exams (12 MCQ, 4 TF, 6 Short Answer) using Gemini AI with LaTeX/Word export support.",
+  "requestFramePermissions": []
+}
