@@ -1,15 +1,20 @@
-# DETHI7991
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Project React + TypeScript sử dụng Vite.
+# Run and deploy your AI Studio app
 
-## Mục đích
-Ứng dụng này là front-end Vite/React/TypeScript. Hướng dẫn này giúp bạn đưa project lên **GitHub** và **deploy lên Vercel**.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/drive/12mkzJXuZlNQJFai9GoKpxRYPRV1DeB9A
 
-## Cách chạy trên máy (kiểm tra trước khi push)
-1. Cài Node.js (phiên bản LTS, ví dụ 18.x hoặc 20.x).
-2. Mở terminal tại thư mục project, chạy:
-   ```bash
-   npm install
-   npm run dev
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
